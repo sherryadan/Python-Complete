@@ -11,3 +11,11 @@ for i in name:
     
     else:
         print("")
+
+colors = ["red", "green", "blue"]
+
+for color in colors:
+    print(color)
+# indentation matters a lot here.
+    for i in color:
+        print(i)
